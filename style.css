@@ -139,6 +139,13 @@ header {
     background-size: 25%;
 }
 
+.ttt{
+    background-image: url('./images/snowflake.png');
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: 50%;   
+}
+
 .snow_white {
     position: relative;
 }
@@ -180,7 +187,7 @@ a {
 }
 
 .cn {
-    margin-left: 44.6%;
+    text-align: center;
 }
 
 .op {
@@ -314,9 +321,7 @@ p {
 }
 
 @media(max-width: 1700px) {
-    .cn {
-        margin-left: 44%;
-    }
+
 
     .bl .winter,
     .bl .left {
@@ -329,9 +334,7 @@ p {
 }
 
 @media (max-width: 1500px) {
-    .cn {
-        margin-left: 43%;
-    }
+
 
     .container2 a {
         margin-top: 5%;
@@ -371,10 +374,6 @@ p {
     .le {
         margin: 29% 0%;
     }
-
-    .cn {
-        margin-left: 41.5%;
-    }
 }
 
 @media(max-width: 1100px) {
@@ -400,10 +399,6 @@ p {
 
     .snow_white .content_right h2 {
         margin-top: 16%;
-    }
-
-    .cn {
-        margin-left: 40.3%;
     }
 
     .chopra {
@@ -465,10 +460,6 @@ p {
 
     a {
         margin: 6%;
-    }
-
-    .cn {
-        margin-left: 37%;
     }
 
     .chopra {
@@ -577,9 +568,6 @@ p {
 }
 
 @media(max-width: 538px) {
-    .cn {
-        margin-left: 31%;
-    }
 
     .bly {
         margin-top: 85%;
@@ -589,7 +577,6 @@ p {
         margin-top: -10%;
     }
 }
-
 
 @media(max-width: 425px) {
     .logo {
@@ -628,15 +615,5 @@ p {
 
     .burger {
         box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
-    }
-
-    .cn {
-        margin-left: 25%;
-    }
-}
-
-@media(max-width: 375px) {
-    .cn {
-        margin-left: 21%;
     }
 }
